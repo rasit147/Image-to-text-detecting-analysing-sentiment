@@ -6,7 +6,7 @@ from io import BytesIO      # Importing library BytesIO for handling image data 
 
 # Function to generate a description of the image using the Hugging Face API
 def generate_description(image_url):
-    api_key = "Enter your api"  # Replaced these with my Hugging Face API key
+    api_key = "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"  # Replaced these with my Hugging Face API key
     headers = {
         'Authorization': f'Bearer {api_key}'  # Set up the authorization header with the API key
     }
@@ -32,7 +32,7 @@ def generate_description(image_url):
 
 # Function to analyze the emotion of the description by using the Hugging Face API
 def analyze_emotion(description):
-    api_key = "Enter your api"                  # Replaced with my Hugging Face API key
+    api_key = "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"                  # Replaced with my Hugging Face API key
     headers = {
         'Authorization': f'Bearer {api_key}'                            # Set up the authorization header with the API key
     }
