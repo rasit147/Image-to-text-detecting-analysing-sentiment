@@ -23,30 +23,12 @@ bash
 Copy code
 pip install -r requirements.txt
 Key Dependencies
-transformers (for using Hugging Face models)
 requests (for making HTTP requests)
-Flask or Streamlit (for the web interface)
+ Streamlit (for the web interface)
 Installation
-Clone the Repository:
 
-bash
-Copy code
-git clone https://github.com/username/repository-name.git
-cd repository-name
-Create a Virtual Environment:
 
-bash
-Copy code
-python -m venv env
-source env/bin/activate  # On Windows, use `env\Scripts\activate`
-Install Dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Running the Application
-Run the Python Script:
 
 bash
 Copy code
@@ -72,10 +54,10 @@ Emotion: "Happy"
 Project Structure
 plaintext
 Copy code
-├── app.py                  # Main application script
+├── app.py                  # Main application script using streamlit
 ├── requirements.txt        # Python dependencies
 ├── README.md               # This file
-└── templates/              # HTML templates (if using Flask)
+ 
 API Usage
 Image-to-Text Generation
 This module uses a pre-trained image-to-text model from Hugging Face to generate descriptions based on the input image.
@@ -85,3 +67,4 @@ This module uses an emotion analysis model from Hugging Face to categorize the s
 
 Contributing
 Feel free to fork this project, submit issues, and send pull requests. Contributions are always welcome!
+For any questions or feedback, please reach out to me at mdrashid1549@gmail.com
