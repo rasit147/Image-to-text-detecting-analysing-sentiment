@@ -1,4 +1,7 @@
 
+![Screenshot (334)](https://github.com/user-attachments/assets/5e2efe5b-da8b-4485-beb4-0caaecea751a)
+
+
 
 # Image-to-Text Description and Emotion Analysis
 # Overview
@@ -10,7 +13,7 @@ Emotion Analysis: Analyze the emotional tone of the generated text and categoriz
 Web Interface: A simple web interface for users to interact with the application.
 Well-Documented: Includes comprehensive documentation and examples.
 Requirements
-Python 3.10
+Python 3.10.5
 pip (Python package installer)
 Python Packages
 The required packages are listed in the requirements.txt file. You can install them using:
@@ -48,9 +51,11 @@ bash
 Copy code
 python app.py
 Access the Web Interface:
+![Screenshot (333)](https://github.com/user-attachments/assets/c4e3e654-f269-42c5-9fee-40bb9e19d872)
 
-Navigate to http://localhost:5000 in your web browser if using Flask.
-Or follow the instructions provided by Streamlit if you're using that framework.
+
+# Navigate to https://emotionn.streamlit.app/ in your web browser.
+
 Input an Image URL:
 
 Enter the URL of an image.
