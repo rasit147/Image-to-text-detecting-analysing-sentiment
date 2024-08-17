@@ -53,7 +53,8 @@ Copy code
 python app.py
 Access the Web Interface:
 
-![Uploading screen happy.png…]()
+
+![screen happy](https://github.com/user-attachments/assets/a022a649-d9ef-42f6-9de7-cdd9df3b94e4)
 
 
 # Navigate to https://emotionn.streamlit.app/ in your web browser.
