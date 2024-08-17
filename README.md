@@ -3,7 +3,8 @@
 # Overview
 This project is a Python application that processes an image URL to generate descriptive text using a pre-trained image-to-text model and then analyzes the emotional tone of the generated text. The application categorizes the emotional tone into categories such as happy, sad, or neutral using pre-trained models from Hugging Face.
 
-![Screenshot (333)](https://github.com/user-attachments/assets/c4e3e654-f269-42c5-9fee-40bb9e19d872)
+
+![screen imagetext](https://github.com/user-attachments/assets/c5f52142-708f-4efa-992b-ef71c4f21c5e)
 
 
 
@@ -51,7 +52,8 @@ bash
 Copy code
 python app.py
 Access the Web Interface:
-![Screenshot (333)](https://github.com/user-attachments/assets/c4e3e654-f269-42c5-9fee-40bb9e19d872)
+
+![Uploading screen happy.png…]()
 
 
 # Navigate to https://emotionn.streamlit.app/ in your web browser.
