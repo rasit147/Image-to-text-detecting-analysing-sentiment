@@ -42,7 +42,6 @@ def analyze_emotion(description):
     response = requests.post(
         'https://api-inference.huggingface.co/models/distilbert-base-uncased-finetuned-sst-2-english',  # Used preprocess trained huggingface sentiment model
         headers=headers,
-        headers=headers,
         json=payload  # Sent the request payload as JSON
     )
 
