@@ -1,11 +1,11 @@
-
-![Screenshot (334)](https://github.com/user-attachments/assets/5e2efe5b-da8b-4485-beb4-0caaecea751a)
-
-
-
 # Image-to-Text Description and Emotion Analysis
+
 # Overview
-This project is a Python application that processes an image URL to generate descriptive text using a pre-trained image-to-text model and then analyzes the emotional tone of the generated text. The application categorizes the emotional tone into categories such as happy, sad, or neutral using pre-trained models from Hugging Face or Replicate.com.
+This project is a Python application that processes an image URL to generate descriptive text using a pre-trained image-to-text model and then analyzes the emotional tone of the generated text. The application categorizes the emotional tone into categories such as happy, sad, or neutral using pre-trained models from Hugging Face.
+
+![Screenshot (333)](https://github.com/user-attachments/assets/c4e3e654-f269-42c5-9fee-40bb9e19d872)
+
+
 
 Features
 Image-to-Text Generation: Convert any image URL into a descriptive text using a pre-trained model.
