@@ -6,7 +6,7 @@ from io import BytesIO      # Importing library BytesIO for handling image data 
 
 # Function to generate a description of the image using the Hugging Face API
 def generate_description(image_url):
-    api_key = ""  # Replaced these with my Hugging Face API key
+    api_key = "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"  # Replaced these with my Hugging Face API key
     headers = {
         'Authorization': f'Bearer {api_key}'  # Set up the authorization header with the API key
     }
@@ -40,7 +40,7 @@ def analyze_emotion(description):
         'inputs': description  # Provided the description text as input to the API
     }
     response = requests.post(
-        '',  # Used preprocess trained huggingface sentiment model
+        'https://api-inference.huggingface.co/models/distilbert-base-uncased-finetuned-sst-2-english',  # Used preprocess trained huggingface sentiment model
         headers=headers,
         json=payload  # Sent the request payload as JSON
     )
